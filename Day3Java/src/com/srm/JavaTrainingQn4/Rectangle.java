@@ -10,14 +10,15 @@ public class Rectangle  {;
 		this.breadth=breadth;
 	}
 	
-	void area(int length,int breadth) {
+	
+	void areaCalc() {
 		int result=length*breadth;
-		System.out.println("Area of Rectangle: "+result);
+		System.out.println("Area:  "+result);
 	}
 	
-	void Perimeter(int length, int breadth) {
+	void PerimeterCal() {
 		int peri=2*(length+breadth);
-		System.out.println("Perimeter of Rectangle: "+peri);
+		System.out.println("Perimeter:  "+peri);
 	}
 
 }
