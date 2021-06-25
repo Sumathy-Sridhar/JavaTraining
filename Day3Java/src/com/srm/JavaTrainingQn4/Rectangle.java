@@ -1,6 +1,6 @@
 package com.srm.JavaTrainingQn4;
 
-public class Rectangle  {;
+public class Rectangle  {
 
 	int length;
 	int breadth;
@@ -9,7 +9,6 @@ public class Rectangle  {;
 		this.length=length;
 		this.breadth=breadth;
 	}
-	
 	
 	void areaCalc() {
 		int result=length*breadth;
