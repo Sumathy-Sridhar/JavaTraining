@@ -6,7 +6,8 @@ public class FiboMutliThread implements Runnable{
 		public static void main(String[] args)
 		{
 			int[] answers = new FiboMutliThread(10).getFib();
-			System.out.println(answers[9]);
+			for(int i=0;i<answers.length;i++){
+			System.out.println(answers[i]);}
 		}
 	 
 		public FiboMutliThread(int num)
