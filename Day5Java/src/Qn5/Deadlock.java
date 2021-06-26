@@ -5,8 +5,10 @@ public class Deadlock {
     public static Object lock2 = new Object();
 
     public static void main(String[] args) {
-        new Thread1().start();
-        new Thread2().start();
+        Thread1 t1=new Thread1();
+       t1.start();
+       Thread2 t2=new Thread2();
+       t2.start();
     }
 
     private static class Thread1 extends Thread {
